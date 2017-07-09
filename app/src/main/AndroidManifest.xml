@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.toan.readnewspaper">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".NewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            />
+        <activity android:name=".Dantri"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            />
+        <activity android:name=".ContextPaper"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            />
+        <activity android:name=".test_rss.ShowHeadlines"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".dantri.DantriExecute"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".dantri.DantriList"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".vnexpress.VnExpressList"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".vnexpress.VnExpressExecute"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".webview.TestWebview"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".offline.MainOffline"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".dantri.DanTriExeTest"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".offline.TestAdapter"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".just_html_offline.HtmlOnline"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".cnn.CnnExecute"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".cnn.CnnList"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:onClick="dantriTrangChu"
+            android:text="trang chu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:onClick="dantriTheThao"
+            android:text="the thao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:onClick="dantriBongDaAnh"
+            android:text="bong da anh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:onClick="dantriBongDaTBN"
+            android:text="bong da tay ban nha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:onClick="dantriBongDaChauAu"
+            android:text="bong da chau au"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:onClick="dantriKinhDoanh"
+            android:text="kinh doanh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:onClick="dantriKhoiNghiep"
+            android:text="doanh nghiep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:onClick="dantriThiTruong"
+            android:text="thi truong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:onClick="dantriQuocTe"
+            android:text="quoc te"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:onClick="dantriTaiChinhDauTu"
+            android:text="tai chinh dau tu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:onClick="dantriKhoiNghiep"
+            android:text="khoi nghiep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:onClick="dantriPhanMemBaoMat"
+            android:text="phan mem - bao mat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+
+    </ScrollView>
+
+
+</LinearLayout>
